@@ -285,7 +285,7 @@ GEM
     multi_xml (0.5.5)
     multipart-post (1.2.0)
     mysql2 (0.3.14)
-    newrelic_rpm (3.9.1.236)
+    newrelic_rpm (3.14.0.305)
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
     oauth2 (1.0.0)
@@ -554,7 +554,7 @@ DEPENDENCIES
   money-rails
   multi_json (~> 1.7.3)
   mysql2
-  newrelic_rpm (~> 3.9.1.236)
+  newrelic_rpm
   omniauth-facebook (~> 2.0.1)
   paperclip
   parallel_tests

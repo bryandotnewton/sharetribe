@@ -96,7 +96,7 @@ gem 'public_suffix' # Needed currently to set GA hostname right, probably not
                     # needed anymore when GA script updated.
 
 group :staging, :production do
-  gem 'newrelic_rpm', '~> 3.9.1.236'
+  gem 'newrelic_rpm'
   gem 'rails_12factor', '~> 0.0.3'
 end
 
