@@ -348,6 +348,8 @@ GEM
     kgio (2.8.1)
     launchy (2.1.2)
       addressable (~> 2.3)
+    letter_opener (1.0.0)
+      launchy (>= 2.0.4)
     librato-metrics (1.5.1)
       aggregate (~> 0.2.2)
       faraday (~> 0.7)
@@ -658,6 +660,7 @@ DEPENDENCIES
   jwt (~> 1.5.1)
   kgio (~> 2.8.0)
   launchy
+  letter_opener
   librato-rails
   lograge
   mail_view (~> 1.0.3)
@@ -714,6 +717,3 @@ DEPENDENCIES
   will_paginate
   xpath
   zeus (= 0.15.1)
-
-BUNDLED WITH
-   1.10.6

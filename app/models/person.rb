@@ -118,7 +118,8 @@ class Person < ActiveRecord::Base
   end
 
   def self.find(username)
-    super(self.find_by_username(username).try(:id) || username)
+    super(self.where(username: username).first.try(:id) || username)
+    # super(self.find_by_username(username).try(:id) || username)
   end
 
   DEFAULT_TIME_FOR_COMMUNITY_UPDATES = 7.days

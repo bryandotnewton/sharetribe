@@ -47,6 +47,7 @@ gem "memcachier"
 gem 'kgio', "~>2.8.0"
 gem 'thinking-sphinx', '~> 3.1.1'
 gem 'flying-sphinx', "~>1.2.0"
+gem "letter_opener"
 # Use patched v2.0.2
 # Fixes issues: Create a new delayed delta job if there is an existing delta job which has failed
 gem 'ts-delayed-delta', "~>2.0.2",
