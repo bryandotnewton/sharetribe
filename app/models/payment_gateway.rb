@@ -72,8 +72,4 @@ class PaymentGateway < ActiveRecord::Base
   def hold_in_escrow
     false
   end
-
-  def gateway_type
-    type
-  end
 end
